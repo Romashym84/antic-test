@@ -546,10 +546,16 @@ body {
 
 
 .pictures {
+    overflow: auto;
     display: flex;
     gap: 30px;
     margin-top: 64px;
 
+}
+
+.picture-item img {
+    height: 550px;
+    width: auto;
 }
 
 
