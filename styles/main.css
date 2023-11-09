@@ -157,7 +157,7 @@ body {
 }
 
 .head__im {
-    background: url("..//assets/Hero.jpg") lightgray 50% / cover no-repeat;
+    background: url("..//assets/hero.jpg") lightgray 50% / cover no-repeat;
 }
 
 .find {
@@ -934,7 +934,7 @@ body {
 
     .wraper {
         display: flex;
-        background: url(..//assets/Hero.jpg) lightgray 50% / cover no-repeat;
+        background: url(..//assets/hero.jpg) lightgray 50% / cover no-repeat;
     }
 
 
