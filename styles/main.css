@@ -1005,6 +1005,149 @@ body {
     }
 
 
+    .find {
+        padding: 48px 32px;
+    }
 
-}
+
+    .find__head {
+        padding: 0%;
+        color: var(--Brown-Dark, #534B42);
+        font-feature-settings: 'clig' off, 'liga' off;
+        /* H4 */
+        font-family: Merriweather;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 40px;
+        /* 114.286% */
+        letter-spacing: -0.3px;
+    }
+
+
+
+    .find__content {
+        margin: 0%;
+        display: inherit
+    }
+
+
+    .find__cont {
+        margin-top: 20px;
+        max-width: fit-content;
+        display: block;
+        color: var(--Brown-Light, rgba(112, 100, 88, 0.90));
+        font-feature-settings: 'clig' off, 'liga' off;
+        /* Paragraph */
+        font-family: Varta;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        /* 138.889% */
+    }
+
+
+    .find__badimag {
+        display: none;
+        padding: 33px 0px;
+    }
+
+
+    .find__new {
+        display: none;
+    }
+
+
+    .badimag__mobile {
+        display: flex;
+        padding: 33px 0px;
+    }
+
+
+    .badroom__mobile {
+        padding-top: 90px;
+        padding-left: 77px;
+        position: absolute;
+        color: var(--Terracotta, #A06056);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        /* H4 */
+        font-family: Merriweather;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 40px;
+        /* 114.286% */
+        letter-spacing: -0.3px;
+    }
+
+
+    .new__mobile {
+        padding-left: 25px;
+    }
+
+
+    .find__livimag {
+        display: none;
+    }
+
+
+    .find__new {
+        display: none;
+    }
+
+
+    .find__title {
+        display: none;
+    }
+
+
+
+    .tit__mobile {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+
+    .link__mobil {
+        display: flex;
+        text-decoration: none;
+        color: var(--Terracotta, #A06056);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Karla;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px;
+        /* 125% */
+        letter-spacing: 0.3px;
+    }
+
+
+    .title__mobile {
+        color: var(--Brown-Light, rgba(112, 100, 88, 0.90));
+        font-feature-settings: 'clig' off, 'liga' off;
+        /* Paragraph */
+        font-family: Varta;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        /* 138.889% */
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
