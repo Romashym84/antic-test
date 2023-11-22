@@ -1450,8 +1450,140 @@ body {
 
 
 
+    .footer__content {
+        flex-direction: column;
+        padding: 48px 32px 0px 32px;
+    }
 
 
+    .footer__antic {
+        justify-content: center;
+        display: flex;
+    }
+
+
+    .footer__link {
+        flex-direction: column-reverse;
+        padding: 40px 0px;
+        gap: 40px
+    }
+
+
+
+    .footer__rooms {
+        display: none;
+    }
+
+
+
+    .footer__rooms-mobile {
+        color: var(--on-background-primary, #121212);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Varta;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px;
+        /* 120% */
+        letter-spacing: -0.2px;
+    }
+
+
+
+    .footer__prooduct {
+        color: var(--on-background-primary, #121212);
+    }
+
+
+
+    .footer__services {
+        color: var(--on-background-primary, #121212);
+    }
+
+
+
+    .footer__about {
+        color: var(--on-background-primary, #121212);
+    }
+
+
+
+    .respect {
+        padding: 0%;
+    }
+
+
+    .copyright {
+        padding: 40px 32px 48px 32px;
+    }
+
+
+    .kolontitul {
+        display: none;
+    }
+
+
+    .mobile__kolontitul {
+        padding-top: 40px;
+    }
+
+
+    .mob-kolon-privace {
+        display: flex;
+    }
+
+
+    .privacy__mobile {
+        color: var(--on-background-secondary, rgba(0, 0, 0, 0.45));
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Varta;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        /* 138.889% */
+    }
+
+
+    .term__mobile {
+        padding-left: 24px;
+        color: var(--on-background-secondary, rgba(0, 0, 0, 0.45));
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Varta;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        /* 138.889% */
+    }
+
+
+
+    .language__mobile {
+        padding-top: 9px;
+        color: var(--on-background-secondary, rgba(0, 0, 0, 0.45));
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Varta;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        /* 138.889% */
+    }
+
+
+    .data__mobile {
+        padding-top: 32px;
+        color: var(--Brown-Light, rgba(112, 100, 88, 0.90));
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Varta;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        /* 138.889% */
+    }
+}
 
 
 
