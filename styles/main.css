@@ -827,7 +827,6 @@ body {
 }
 
 
-
 .respect__content {
     padding: 15px 0 15px 0;
     color: #706458;
@@ -839,12 +838,6 @@ body {
     line-height: 25px;
     /* 156.25% */
 }
-
-
-
-
-.respect__learn {}
-
 
 
 .learn__link {
@@ -897,7 +890,6 @@ body {
 .term {
     padding: 0px 30px 0px 30px;
 }
-
 
 
 @media only screen and (max-width: 375px) {
@@ -1398,58 +1390,6 @@ body {
 
 
 
-    .cooked__mobile {
-        padding-top: 15px;
-        color: var(--on-background-primary, #121212);
-        font-feature-settings: 'clig' off, 'liga' off;
-        font-family: Lato;
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 20px;
-        /* 133.333% */
-    }
-
-
-
-    .pictur3__mobile {
-        display: flex;
-        gap: 15px;
-        padding-top: 20px;
-    }
-
-
-
-    .living__mobile {
-        padding-top: 12px;
-        display: flex;
-        color: var(--on-background-primary, #121212);
-        font-feature-settings: 'clig' off, 'liga' off;
-        font-family: Lato;
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 20px;
-        /* 133.333% */
-    }
-
-
-
-
-    .table__mobile {
-        padding-left: 85px;
-        color: var(--on-background-primary, #121212);
-        font-feature-settings: 'clig' off, 'liga' off;
-        font-family: Lato;
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 20px;
-        /* 133.333% */
-    }
-
-
-
     .footer__content {
         flex-direction: column;
         padding: 48px 32px 0px 32px;
@@ -1469,11 +1409,9 @@ body {
     }
 
 
-
     .footer__rooms {
         display: none;
     }
-
 
 
     .footer__rooms-mobile {
@@ -1489,11 +1427,9 @@ body {
     }
 
 
-
     .footer__prooduct {
         color: var(--on-background-primary, #121212);
     }
-
 
 
     .footer__services {
@@ -1501,11 +1437,9 @@ body {
     }
 
 
-
     .footer__about {
         color: var(--on-background-primary, #121212);
     }
-
 
 
     .respect {
