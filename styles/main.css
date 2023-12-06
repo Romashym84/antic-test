@@ -317,6 +317,12 @@ body {
     padding-left: 150px;
     padding-top: 30px;
     display: flex;
+}
+
+
+.design__link {
+    display: flex;
+    text-decoration: none;
     color: var(--Terracotta, #A06056);
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Karla;
@@ -329,24 +335,20 @@ body {
 }
 
 
-.design__link {
+.squad-design-department {
+    margin-bottom: 40px;
     display: flex;
-    text-decoration: none;
+    flex-wrap: wrap;
 }
 
 
-.find__right {
-    display: flex;
-}
-
-
-.design__content {
+.squad-design-block1 {
     padding-top: 154px;
     padding-left: 165px;
 }
 
 
-.head__advic {
+.squad-design-head {
     color: var(--Terracotta, #A06056);
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Varta;
@@ -359,7 +361,8 @@ body {
 }
 
 
-.advic__content {
+.squad-design-content {
+    padding-bottom: 30px;
     padding-top: 12px;
     max-width: 258px;
     color: var(--Brown-Light, rgba(112, 100, 88, 0.90));
@@ -372,88 +375,17 @@ body {
     /* 138.889% */
 }
 
-.head__concept {
-    padding-top: 30px;
-    color: var(--Terracotta, #A06056);
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Varta;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 30px;
-    /* 120% */
-    letter-spacing: -0.2px;
-}
 
-.concept__content {
-    padding-top: 12px;
-    padding-bottom: 70px;
-    max-width: 258px;
-    color: var(--Brown-Light, rgba(112, 100, 88, 0.90));
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Varta;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25px;
-    /* 138.889% */
-}
-
-.design__content2 {
+.squad-design-block2 {
     padding-top: 154px;
     padding-left: 35px;
 }
 
-.head__colection {
-    color: var(--Terracotta, #A06056);
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Varta;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 30px;
-    /* 120% */
-    letter-spacing: -0.2px;
+
+.squad-design-section {
+    padding-top: 50px;
 }
 
-.colection__content {
-    padding-top: 12px;
-    max-width: 255px;
-    color: var(--Brown-Light, rgba(112, 100, 88, 0.90));
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Varta;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25px;
-    /* 138.889% */
-}
-
-.head__install {
-    padding-top: 80px;
-    color: var(--Terracotta, #A06056);
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Varta;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 30px;
-    /* 120% */
-    letter-spacing: -0.2px;
-}
-
-.install__content {
-    padding-top: 12px;
-    max-width: 255px;
-    color: var(--Brown-Light, rgba(112, 100, 88, 0.90));
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Varta;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25px;
-    /* 138.889% */
-}
 
 .trends {
     padding-top: 70px;
@@ -509,11 +441,6 @@ body {
     line-height: 25px;
     /* 147.059% */
     letter-spacing: 0.3px;
-}
-
-
-.beaware__right {
-    display: flex;
 }
 
 
@@ -657,6 +584,7 @@ body {
 
 
 .footer__antic {
+    display: flex;
     color: #534B42;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Merriweather;
@@ -668,14 +596,14 @@ body {
     letter-spacing: 2px;
 }
 
-.footer__link {
+.branch-footer-link {
     display: flex;
     gap: 70px;
-    padding: 0px 64px;
+    padding-left: 64px;
 }
 
 
-.footer__prooduct {
+.branch-footer-header {
     color: #534B42;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Varta;
@@ -687,115 +615,14 @@ body {
     letter-spacing: -0.2px;
 }
 
-.prooduct__links {
+.branch-footer-commodity-links {
     padding-top: 10px;
     display: flex;
     flex-direction: column;
 }
 
 
-.prooduct__link {
-    padding-top: 12px;
-    text-decoration: none;
-    color: #706458;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Varta;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25px;
-    /* 138.889% */
-}
-
-
-.footer__rooms {
-    color: #534B42;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Varta;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 30px;
-    /* 120% */
-    letter-spacing: -0.2px;
-}
-
-
-.rooms__links {
-    padding-top: 10px;
-    display: flex;
-    flex-direction: column;
-}
-
-
-.rooms__link {
-    padding-top: 12px;
-    text-decoration: none;
-    color: #706458;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Varta;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25px;
-    /* 138.889% */
-}
-
-
-.footer__services {
-    color: #534B42;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Varta;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 30px;
-    /* 120% */
-    letter-spacing: -0.2px;
-}
-
-.services__links {
-    padding-top: 10px;
-    display: flex;
-    flex-direction: column;
-}
-
-
-.services__link {
-    padding-top: 12px;
-    text-decoration: none;
-    color: #706458;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Varta;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25px;
-    /* 138.889% */
-}
-
-
-.footer__about {
-    color: #534B42;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Varta;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 30px;
-    /* 120% */
-    letter-spacing: -0.2px;
-}
-
-
-.about__links {
-    padding-top: 10px;
-    display: flex;
-    flex-direction: column;
-}
-
-
-.about__link {
+.commodity-links {
     padding-top: 12px;
     text-decoration: none;
     color: #706458;
@@ -833,6 +660,7 @@ body {
 
 
 .respect__content {
+    max-width: 250px;
     padding: 15px 0 15px 0;
     color: #706458;
     font-feature-settings: 'clig' off, 'liga' off;
@@ -962,26 +790,21 @@ body {
         display: none;
     }
 
-.design__head {
-    padding-left: 0%;
-}
+    .design__head {
+        padding-left: 0%;
+    }
 
-.design__find {
-    padding-left: 0%;
-}
+    .design__find {
+        padding-left: 0%;
+    }
 
-.design__content {
-    padding-left: 0%;
-}
-
-
-    .design__content2 {
-        padding-left:0%;
-        padding-top: 0%;
+    .squad-design-block1 {
+        padding-left: 0%;
     }
 
 
     .concept__mobile {
+        display: none;
         color: var(--Brown-Light, rgba(112, 100, 88, 0.90));
         font-feature-settings: 'clig' off, 'liga' off;
         font-family: Varta;
@@ -993,6 +816,7 @@ body {
 
 
     .mobi__cont {
+        display: none;
         color: var(--Brown-Light, rgba(112, 100, 88, 0.90));
         font-feature-settings: 'clig' off, 'liga' off;
         font-family: Varta;
@@ -1012,17 +836,7 @@ body {
         padding-top: inherit;
         padding-left: 0%;
     }
-
-
-    .adress {
-        padding-left: 0%;
-    }
-
-
-    .list {
-        padding-left: 0%;
-    }
-
+    
 
     .footer__content {
         padding-top: 70px;
@@ -1035,7 +849,12 @@ body {
     }
 
 
-    .footer__link {
+    .branch-footer-mobile {
+        display: none;
+    }
+
+
+    .branch-footer-link {
         padding: 30px 64px;
         flex-wrap: wrap;
     }
@@ -1047,11 +866,6 @@ body {
 
 
     .mobile__kolontitul {
-        display: none;
-    }
-
-
-    .footer__rooms-mobile {
         display: none;
     }
 }
@@ -1070,9 +884,14 @@ body {
     }
 
 
+    .mobile__menu {
+        display: flex;
+    }
+
+
     .header__title {
         padding-left: 32px;
-        padding-top: 50px;
+        padding-top: 0%;
         color: var(--color-color-white, #FFF);
         font-feature-settings: 'clig' off, 'liga' off;
         /* Logo */
@@ -1097,6 +916,7 @@ body {
 
 
     .header__hom {
+        margin-top: 98px;
         color: var(--color-color-white, #FFF);
         text-align: center;
         font-feature-settings: 'clig' off, 'liga' off;
@@ -1113,6 +933,7 @@ body {
 
 
     .header__hero {
+        margin-top: 30px;
         color: var(--color-color-white, #FFF);
         text-align: center;
         font-feature-settings: 'clig' off, 'liga' off;
@@ -1261,7 +1082,6 @@ body {
     }
 
 
-
     .tit__mobile {
         display: flex;
         width: 100%;
@@ -1285,6 +1105,7 @@ body {
 
 
     .title__mobile {
+        opacity: 0.5;
         color: var(--Brown-Light, rgba(112, 100, 88, 0.90));
         font-feature-settings: 'clig' off, 'liga' off;
         /* Paragraph */
@@ -1302,11 +1123,8 @@ body {
     }
 
 
-
     .design__head {
         justify-content: center;
-        min-width: 340px;
-        text-align: justify;
         padding: 48px 32px 32px 32px;
         display: flex;
         color: var(--Brown-Dark, #534B42);
@@ -1321,13 +1139,11 @@ body {
     }
 
 
-
     .design__find {
         padding-left: 32px;
         padding-top: 0%;
 
     }
-
 
 
     .design__link {
@@ -1343,84 +1159,33 @@ body {
     }
 
 
+    .squad-design-block1 {
+        padding-top: 35px;
+    }
 
-    .design__content {
-        padding-top: 41px;
+
+    .squad-design-content {
+        overflow: inherit;
+        padding-top: 10px;
         padding-left: 32px;
     }
 
 
-    .advic__content {
+    .squad-design-head {
+        padding-left: 32px;
         padding-top: 5px;
         max-width: 310px;
     }
 
 
-
-    .head__concept {
-        display: none;
-    }
-
-
-    .concept__content {
-        display: none;
-    }
-
-
-
-    .design__content2 {
-        padding: 40px 24px 48px 32px;
-    }
-
-
-
-
-    .colection__content {
+    .squad-design-block2 {
         padding: 0%;
-        max-width: 310px;
     }
 
 
-
-    .concept__mobile {
-        padding-top: 40px;
-        color: var(--Terracotta, #A06056);
-        font-feature-settings: 'clig' off, 'liga' off;
-        font-family: Varta;
-        font-size: 25px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 30px;
-        /* 120% */
-        letter-spacing: -0.2px;
+    .squad-design-section {
+        padding: 0%;
     }
-
-
-
-    .mobi__cont {
-        color: var(--Brown-Light, rgba(112, 100, 88, 0.90));
-        font-feature-settings: 'clig' off, 'liga' off;
-        font-family: Varta;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 25px;
-        /* 138.889% */
-    }
-
-
-
-    .head__install {
-        padding-top: 40px;
-    }
-
-
-
-    .install__content {
-        padding-top: 0px;
-        max-width: 310px;
-    }
-
 
 
     .trends {
@@ -1428,18 +1193,15 @@ body {
     }
 
 
-
     .beaware {
         flex-direction: column;
     }
-
 
 
     .beaware__cont {
         padding: 16px 0px;
         max-width: 289px;
     }
-
 
 
     .beaware__learn {
@@ -1460,12 +1222,10 @@ body {
     }
 
 
-
     .list {
         padding-top: 16px;
         padding-left: 0%;
     }
-
 
 
     .button_purnow {
@@ -1473,18 +1233,15 @@ body {
     }
 
 
-
     .pictures {
         display: none;
     }
-
 
 
     .picture__cont {
         flex-direction: column;
         padding-top: 64px;
     }
-
 
 
     .picture__header {
@@ -1500,11 +1257,9 @@ body {
     }
 
 
-
     .picture__content {
         padding: 20px 0px 40px;
     }
-
 
 
     .list2 {
@@ -1512,11 +1267,9 @@ body {
     }
 
 
-
     .inspires-card-mobile-container {
         gap: 20px;
     }
-
 
 
     .inspires-card-mobile-row {
@@ -1554,7 +1307,6 @@ body {
     }
 
 
-
     .footer__content {
         flex-direction: column;
         padding: 48px 32px 0px 32px;
@@ -1564,24 +1316,23 @@ body {
     .footer__antic {
         justify-content: center;
         display: flex;
+        padding-left: 0%;
     }
 
 
-    .footer__link {
+    .branch-footer-link {
         flex-direction: column-reverse;
         padding: 40px 0px;
         gap: 40px
     }
 
 
-    .footer__rooms {
-        display: none;
-    }
-
-
-    .footer__rooms-mobile {
+    .branch-footer-mobile {
+        display: flex;
+        flex-direction: column;
         color: var(--on-background-primary, #121212);
-        font-feature-settings: 'clig' off, 'liga' off;
+        font-feature-settings: 'clig' off,
+            'liga' off;
         font-family: Varta;
         font-size: 25px;
         font-style: normal;
@@ -1592,17 +1343,23 @@ body {
     }
 
 
-    .footer__prooduct {
-        color: var(--on-background-primary, #121212);
+    .rooms__links {
+        display: flex;
+        flex-direction: column;
     }
 
 
-    .footer__services {
-        color: var(--on-background-primary, #121212);
+    .branch-footer-commodity-links {
+        padding: 0%;
     }
 
 
-    .footer__about {
+    .footer__rooms {
+        display: none;
+    }
+
+
+    .branch-footer-header {
         color: var(--on-background-primary, #121212);
     }
 
@@ -1623,6 +1380,7 @@ body {
 
 
     .mobile__kolontitul {
+        display: block;
         padding-top: 40px;
     }
 
@@ -1655,7 +1413,6 @@ body {
         line-height: 25px;
         /* 138.889% */
     }
-
 
 
     .language__mobile {
